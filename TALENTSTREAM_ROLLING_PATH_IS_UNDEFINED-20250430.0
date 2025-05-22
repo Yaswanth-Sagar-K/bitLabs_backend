@@ -1,0 +1,1015 @@
+30-04-2025_13:58:28.985{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+30-04-2025_13:58:29.033{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 23.0.2 on SYMP-LT1011 with PID 12048 (C:\Users\Yaswanth\Desktop\Talentstreambackend1\target\classes started by Yaswanth in C:\Users\Yaswanth\Desktop\Talentstreambackend1)
+30-04-2025_13:58:29.034{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+30-04-2025_13:58:29.036{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+30-04-2025_13:58:37.111{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+30-04-2025_13:58:37.144{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 23.0.2 on SYMP-LT1011 with PID 14272 (C:\Users\Yaswanth\Desktop\Talentstreambackend1\target\classes started by Yaswanth in C:\Users\Yaswanth\Desktop\Talentstreambackend1)
+30-04-2025_13:58:37.145{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+30-04-2025_13:58:37.146{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+30-04-2025_13:58:39.518{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-04-2025_13:58:39.943{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 402 ms. Found 39 JPA repository interfaces.
+30-04-2025_13:58:42.646{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+30-04-2025_13:58:42.670{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+30-04-2025_13:58:42.671{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+30-04-2025_13:58:42.672{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+30-04-2025_13:58:43.072{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+30-04-2025_13:58:43.073{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 5801 ms
+30-04-2025_13:58:43.762{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+30-04-2025_13:58:43.893{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+30-04-2025_13:58:44.301{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-04-2025_13:58:44.539{UTC}|report-tool|WARN ||c.z.h.HikariConfig|HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+30-04-2025_13:58:44.542{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+30-04-2025_13:58:46.618{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@17189618
+30-04-2025_13:58:46.632{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+30-04-2025_13:58:46.693{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+30-04-2025_13:59:09.634{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-04-2025_13:59:09.654{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-04-2025_13:59:10.648{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+30-04-2025_13:59:10.736{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-04-2025_13:59:11.870{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+30-04-2025_13:59:11.950{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+30-04-2025_13:59:17.042{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a8f777, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a6198a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@19f4bfce, org.springframework.security.web.header.HeaderWriterFilter@24fe3184, org.springframework.security.web.authentication.logout.LogoutFilter@4ee5d723, com.talentstream.filter.JwtRequestFilter@7e3c5ef1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@364f0a6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11cf1be7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e06a7e4, org.springframework.security.web.session.SessionManagementFilter@7006b304, org.springframework.security.web.access.ExceptionTranslationFilter@78f9b1ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e024667]
+30-04-2025_13:59:17.623{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+30-04-2025_13:59:17.656{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+30-04-2025_13:59:19.244{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 42.876 seconds (JVM running for 45.103)
+30-04-2025_13:59:19.362{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-04-2025_13:59:19.362{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+30-04-2025_13:59:19.366{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 4 ms
+30-04-2025_13:59:19.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_13:59:19.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_13:59:19.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_14:15:05.789{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@17189618 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.523{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@77db6476 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.678{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@133fbd6f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.713{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6021eaa1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.763{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4cf5da07 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.826{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@79e8d93d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:05.914{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@17d2d7aa (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:06.053{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@78494313 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:06.129{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a0e9bff (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:06.217{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@259098b2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:25:06.425{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzU0NzgsImlhdCI6MTc0NTk5OTQ3OH0.FZWhyRPygxNvZuOwNaXmJyPaMTasHuqC2MGIu25T1Hg
+30-04-2025_14:25:06.426{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzU0NzgsImlhdCI6MTc0NTk5OTQ3OH0.FZWhyRPygxNvZuOwNaXmJyPaMTasHuqC2MGIu25T1Hg
+30-04-2025_14:25:06.428{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:31:43.546{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@56038369 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:32:05.467{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:32:05.468{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:32:05.469{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:34:58.133{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:34:58.135{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:34:58.136{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:41:43.819{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3ebd4bdd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:45:07.160{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:45:07.161{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:45:07.161{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:51:14.714{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@23accbde (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:14.830{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7fe23b19 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:14.898{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7d9f6066 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:15.059{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@38a8a630 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:15.121{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@44a9af18 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:15.252{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2afd7e67 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:15.411{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2ce7a70e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:15.673{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@51831d84 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:51:16.189{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:51:16.190{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:51:16.192{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:52:43.871{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:52:43.872{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:52:43.872{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_14:58:51.836{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3202293 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_14:58:52.510{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:58:52.511{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_14:58:52.512{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:02:28.356{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:02:28.359{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:02:28.361{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:02:47.691{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:02:47.696{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:02:47.697{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:03:53.385{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:03:53.388{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:03:53.389{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:04:58.632{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:04:58.634{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:04:58.635{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:11:36.115{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:11:36.117{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:11:36.119{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:18:32.618{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2ea9b1fd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:32.662{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2451da8d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:32.728{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@61534063 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:32.811{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@21623ed (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:32.944{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@50f8857d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:33.491{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7a57b85d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:34.892{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@17cbf2c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:35.196{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3246fda5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:18:35.716{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:18:35.718{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:18:35.719{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:19:42.343{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:19:42.343{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:19:42.344{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:23:57.829{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:23:57.832{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:23:57.834{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:25:23.939{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:25:23.941{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:25:23.942{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:30:01.519{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:30:01.520{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:30:01.520{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:41:17.022{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@363d317 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:17.559{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6e2445a4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.071{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4ba46517 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.122{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@56c2ec1f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.168{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@357ee41a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.204{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@79bb8e74 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.266{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@11dfc089 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.319{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@503c74b9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_15:41:18.434{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:41:18.435{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwMzk2MDUsImlhdCI6MTc0NjAwMzYwNX0.P1_bjkNWGiwFkyrVMIljihmgQKq3CE1i00L7mLi6HRs
+30-04-2025_15:41:18.435{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_15:53:47.164{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_15:53:47.166{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_15:53:47.166{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_15:56:21.635{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_15:56:21.636{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_15:56:21.637{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_16:04:53.678{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@443b17a4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:04:54.144{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2481ffe9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:04:54.761{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4c8fdb55 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:04:54.808{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@50956357 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:04:54.944{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@465e074e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:04:55.128{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:04:55.129{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:04:55.129{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:05:10.083{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_16:05:10.084{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_16:05:10.085{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_16:09:10.738{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_16:09:10.739{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_16:09:10.739{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_16:13:52.341{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3588fd8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:14:01.786{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:14:01.786{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:14:01.786{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:15:48.619{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:15:48.619{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:15:48.619{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:16:51.250{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:16:51.251{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:16:51.251{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:21:21.262{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@307b8a6d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.269{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@760f62a1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.273{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4aabcb0c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.282{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@266f08d6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.287{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f90830a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.292{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1207f033 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.294{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6e0bad4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.340{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@58173b66 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:21.351{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@43046bbd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:21:51.294{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: XX000
+30-04-2025_16:21:51.295{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|HikariPool-1 - Connection is not available, request timed out after 30011ms.
+30-04-2025_16:21:51.295{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+30-04-2025_16:21:51.413{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy157.findByEmail(Unknown Source)
+	at com.talentstream.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:98)
+	at com.talentstream.service.MyUserDetailsService$$FastClassBySpringCGLIB$$30efbe58.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.talentstream.aop.AspectAop.logAroundMethod(AspectAop.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.talentstream.service.MyUserDetailsService$$EnhancerBySpringCGLIB$$1bc76876.loadUserByUsername(<generated>)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:111)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2059)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406)
+	at jdk.proxy2/jdk.proxy2.$Proxy250.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 85 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30011ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:181)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:146)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	... 127 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2845)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:176)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:323)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 common frames omitted
+30-04-2025_16:22:57.366{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: XX000
+30-04-2025_16:22:57.367{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|HikariPool-1 - Connection is not available, request timed out after 30004ms.
+30-04-2025_16:22:57.367{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+30-04-2025_16:22:57.395{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy157.findByEmail(Unknown Source)
+	at com.talentstream.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:98)
+	at com.talentstream.service.MyUserDetailsService$$FastClassBySpringCGLIB$$30efbe58.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.talentstream.aop.AspectAop.logAroundMethod(AspectAop.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.talentstream.service.MyUserDetailsService$$EnhancerBySpringCGLIB$$1bc76876.loadUserByUsername(<generated>)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:111)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2059)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406)
+	at jdk.proxy2/jdk.proxy2.$Proxy250.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 85 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30004ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:181)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:146)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	... 127 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2845)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:176)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:323)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 common frames omitted
+30-04-2025_16:23:02.568{UTC}|report-tool|WARN ||o.h.e.j.s.SqlExceptionHelper|SQL Error: 0, SQLState: XX000
+30-04-2025_16:23:02.569{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|HikariPool-1 - Connection is not available, request timed out after 30004ms.
+30-04-2025_16:23:02.569{UTC}|report-tool|ERROR||o.h.e.j.s.SqlExceptionHelper|FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+30-04-2025_16:23:02.571{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:255)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy157.findByEmail(Unknown Source)
+	at com.talentstream.service.MyUserDetailsService.loadUserByUsername(MyUserDetailsService.java:98)
+	at com.talentstream.service.MyUserDetailsService$$FastClassBySpringCGLIB$$30efbe58.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.talentstream.aop.AspectAop.logAroundMethod(AspectAop.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.talentstream.service.MyUserDetailsService$$EnhancerBySpringCGLIB$$1bc76876.loadUserByUsername(<generated>)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:111)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2122)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2059)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357)
+	at org.hibernate.loader.Loader.doList(Loader.java:2868)
+	at org.hibernate.loader.Loader.doList(Loader.java:2850)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682)
+	at org.hibernate.loader.Loader.list(Loader.java:2677)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:218)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617)
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1665)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406)
+	at jdk.proxy2/jdk.proxy2.$Proxy250.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:198)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 85 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 30004ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:181)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:146)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	... 127 common frames omitted
+Caused by: org.postgresql.util.PSQLException: FATAL: MaxClientsInSessionMode: max clients reached - in Session mode max clients are limited to pool_size
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2845)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:176)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:323)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	... 1 common frames omitted
+30-04-2025_16:28:32.427{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:28:32.427{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:28:32.428{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:28:58.942{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:28:58.943{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:28:58.943{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:30:29.178{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:30:29.179{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:30:29.180{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:31:47.136{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:31:47.137{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:31:47.137{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:32:23.110{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:32:23.111{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:32:23.111{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:36:25.605{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:36:25.606{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:36:25.606{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:39:09.331{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:39:09.332{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:39:09.332{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:41:47.625{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:41:47.626{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:41:47.626{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:41:55.191{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:41:55.193{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:41:55.194{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_16:45:59.250{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_16:45:59.252{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_16:45:59.252{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_16:52:51.120{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a98a11 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_16:52:51.214{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:52:51.215{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_16:52:51.215{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:01:51.091{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4eefe008 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.119{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@711e16 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.146{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@62fee6da (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.173{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5320a52d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.203{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@527a5e3d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.234{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5af37bca (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.263{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4fae8e78 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.291{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@19f1536d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.327{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@19fa7dd8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:01:51.426{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:01:51.426{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:01:51.426{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:06:31.582{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:06:31.583{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:06:31.583{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:07:15.496{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:07:15.497{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:07:15.497{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:07:30.445{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:07:30.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:07:30.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:10:00.934{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:10:00.934{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:10:00.934{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:10:40.799{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:10:40.800{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:10:40.800{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:11:17.418{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:11:17.419{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:11:17.420{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:39:55.741{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m5s257ms487µs).
+30-04-2025_17:39:55.776{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7aa3e1eb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.802{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@37f2dbf3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.828{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@52bbc85f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.855{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1df7967e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.886{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@690b2be5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.915{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@48875874 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.940{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4472980b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.965{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6517b29d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:39:55.990{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@55f3e9d9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:43:19.748{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:43:19.750{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:43:19.751{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:43:25.131{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:43:25.131{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:43:25.131{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:44:24.417{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:44:24.418{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:44:24.418{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:46:15.444{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:46:15.445{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:46:15.445{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:51:45.233{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@76b6fbf3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.237{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4fa6bdad (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.241{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@59617b5f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.246{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@18497ae3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.253{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@21948409 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.258{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5b251e43 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.266{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@9cc3dfb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.270{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5a01d043 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.275{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5f30b3c6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.278{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2c146965 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_17:51:45.593{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:51:45.593{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:51:45.594{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:52:35.924{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:52:35.924{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:52:35.924{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_17:52:43.422{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:52:43.637{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_17:52:43.638{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:05:35.085{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3bd374e6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_18:05:35.174{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:05:35.174{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:05:35.174{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:05:40.920{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:05:40.920{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:05:40.920{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:07:16.445{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:07:16.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:07:16.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:07:22.489{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:07:22.489{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:07:22.489{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:08:42.287{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:08:42.288{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:08:42.288{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:08:53.639{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:08:53.640{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:08:53.640{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:11:09.511{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:11:09.512{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:11:09.512{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:11:15.825{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:11:15.826{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:11:15.826{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:12:25.636{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:12:25.636{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:12:25.637{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:12:34.018{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:12:34.019{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:12:34.019{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:13:24.164{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:13:24.165{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:13:24.165{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:13:36.142{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:13:36.142{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:13:36.142{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:14:57.406{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:14:57.407{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:14:57.407{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:15:05.021{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:15:05.021{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:15:05.021{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:16:09.988{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:09.988{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:09.988{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:16:18.883{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:18.885{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:18.885{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:16:27.997{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:27.998{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:16:27.999{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:18:11.737{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:18:11.738{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:18:11.738{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:22:06.557{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:22:06.558{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:22:06.558{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:22:11.117{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:22:11.118{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_18:22:11.118{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_18:26:46.610{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s194ms911µs700ns).
+30-04-2025_19:12:17.891{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m31s393ms234µs500ns).
+30-04-2025_19:12:17.895{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@b0fd81c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.896{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4dfa6e40 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.898{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3fd3cd52 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.899{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4c397d74 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.900{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@398383d7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.903{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@279562c9 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.904{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@60d9234 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.906{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1588d5c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:17.909{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@24e02b9b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:12:47.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:12:47.446{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:12:47.447{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_19:12:48.957{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:12:48.958{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:12:48.959{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_19:13:12.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:13:12.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:13:12.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_19:17:02.554{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@89f569e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.558{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@9124868 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.561{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@78f0f9fb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.564{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@a297bdd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.567{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@f4df1dc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.569{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1407b955 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.571{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6bc7b50f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:17:02.654{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:17:02.655{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:17:02.655{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_19:28:02.720{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@286f86e4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.522{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f74ad61 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.550{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@18717a83 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.577{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@10b99a6b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.606{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2a9c22b8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.634{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e71a9c5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.663{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3dc77bea (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.692{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6171c4fb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.731{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2a33a38f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_19:39:03.825{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:39:03.825{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:39:03.827{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_19:39:20.391{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:39:20.392{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_19:39:20.392{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:04:18.822{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a71a8f1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:18.853{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3e675a00 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:18.891{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5bf7ad98 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:18.921{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4cd6b037 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:18.948{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@33654d34 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:18.987{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@37d6a602 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:19.016{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@51ab560d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:19.045{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@28051307 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:04:19.137{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:04:19.138{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:04:19.138{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:04:25.258{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:04:25.258{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:04:25.259{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:05:43.801{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:05:43.801{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:05:43.801{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:06:34.806{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:06:34.806{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:06:34.806{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:07:41.147{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:07:41.147{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:07:41.147{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:11:45.049{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:11:45.050{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:11:45.050{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:44:24.728{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@30d1eeb5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:44:24.817{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:44:24.817{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:44:24.817{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:45:51.681{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:45:51.681{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:45:51.681{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:45:59.174{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:45:59.175{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:45:59.175{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:46:05.730{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+30-04-2025_20:46:05.730{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+30-04-2025_20:46:05.730{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+30-04-2025_20:46:38.931{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:46:38.931{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:46:38.932{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:47:52.879{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:47:52.880{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:47:52.880{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:53:27.906{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:53:27.907{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:53:27.907{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:55:12.761{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:55:12.762{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:55:12.762{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:57:52.922{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4ed8feaa (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:52.950{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@363f1a44 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:52.977{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5c12bb5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.004{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@c65b809 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.031{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@80f1ffd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.058{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@46acd982 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.082{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4abcde61 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.109{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6b3882cf (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_20:57:53.194{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:57:53.194{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:57:53.194{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_20:58:52.616{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:58:52.617{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_20:58:52.617{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:01:19.698{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:01:19.699{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:01:19.699{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:01:49.120{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:01:49.121{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:01:49.121{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:11:39.829{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2380d8b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:11:39.930{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:11:39.930{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:11:39.930{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:14:16.267{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:14:16.268{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:14:16.268{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:23:44.551{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@580832f2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.585{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6a74c43a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.617{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1884fa62 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.647{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@182c422 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.682{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e417f82 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.713{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@62582b64 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+30-04-2025_21:23:44.814{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:23:44.815{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:23:44.815{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:26:42.270{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:26:42.270{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:26:42.270{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:28:24.759{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:28:24.760{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:28:24.760{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:32:39.798{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:32:39.799{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDYwNDUxNzYsImlhdCI6MTc0NjAwOTE3Nn0.PeZsejNnVmGvOg5PxAe3wB8dsrTc_zITxinCRu3WSoA
+30-04-2025_21:32:39.799{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+30-04-2025_21:40:54.492{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+30-04-2025_21:40:54.841{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+30-04-2025_21:40:54.842{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+30-04-2025_21:40:54.860{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+30-04-2025_21:40:54.893{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+30-04-2025_21:40:54.897{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+30-04-2025_21:40:54.925{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-0.0.0.0-8080"]
+30-04-2025_21:40:55.080{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+30-04-2025_21:40:55.102{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+30-04-2025_21:40:55.217{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.

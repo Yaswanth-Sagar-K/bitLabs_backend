@@ -1,0 +1,436 @@
+06-05-2025_14:13:28.032{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+06-05-2025_14:13:28.077{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 23.0.2 on SYMP-LT1011 with PID 6944 (C:\Users\Yaswanth\Desktop\Talentstreambackend1\target\classes started by Yaswanth in C:\Users\Yaswanth\Desktop\Talentstreambackend1)
+06-05-2025_14:13:28.078{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+06-05-2025_14:13:28.079{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+06-05-2025_14:13:30.333{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06-05-2025_14:13:30.660{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 309 ms. Found 39 JPA repository interfaces.
+06-05-2025_14:13:32.151{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+06-05-2025_14:13:32.173{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+06-05-2025_14:13:32.174{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+06-05-2025_14:13:32.174{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+06-05-2025_14:13:32.434{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+06-05-2025_14:13:32.434{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 4197 ms
+06-05-2025_14:13:32.916{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+06-05-2025_14:13:33.026{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+06-05-2025_14:13:33.352{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+06-05-2025_14:13:33.552{UTC}|report-tool|WARN ||c.z.h.HikariConfig|HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+06-05-2025_14:13:33.554{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+06-05-2025_14:13:34.699{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7028b5cc
+06-05-2025_14:13:34.703{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+06-05-2025_14:13:34.746{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+06-05-2025_14:13:48.144{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+06-05-2025_14:13:48.169{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+06-05-2025_14:13:49.280{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+06-05-2025_14:13:49.376{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06-05-2025_14:13:50.405{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+06-05-2025_14:13:50.483{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+06-05-2025_14:13:55.816{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5fb2088b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40e86f55, org.springframework.security.web.context.SecurityContextPersistenceFilter@17e77d57, org.springframework.security.web.header.HeaderWriterFilter@18505320, org.springframework.security.web.authentication.logout.LogoutFilter@3453014b, com.talentstream.filter.JwtRequestFilter@504216ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5deae5ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22265a2d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f8d3539, org.springframework.security.web.session.SessionManagementFilter@19323826, org.springframework.security.web.access.ExceptionTranslationFilter@67d8e3b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@485c31d7]
+06-05-2025_14:13:56.424{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+06-05-2025_14:13:56.463{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+06-05-2025_14:13:58.174{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 30.837 seconds (JVM running for 32.711)
+06-05-2025_14:13:58.308{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-05-2025_14:13:58.310{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+06-05-2025_14:13:58.316{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 5 ms
+06-05-2025_14:13:58.349{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+06-05-2025_14:13:58.351{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+06-05-2025_14:13:58.351{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+06-05-2025_14:14:13.286{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:14:13.286{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:14:13.286{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:14:53.962{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:14:53.964{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:14:53.965{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:15:08.043{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:15:08.044{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:15:08.045{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:17:06.050{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:17:06.051{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:17:06.052{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:17:57.542{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:17:57.543{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:17:57.543{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:18:45.925{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:18:45.926{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:18:45.926{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:18:50.054{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:18:50.055{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:18:50.055{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:24:22.384{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:24:22.384{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:24:22.384{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:24:28.398{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:24:28.399{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:24:28.400{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:44:08.917{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:44:08.920{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:44:08.920{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:44:15.225{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:44:15.226{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:44:15.226{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:46:39.562{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:46:39.564{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:46:39.565{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:46:52.146{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@33f81b39 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_14:46:52.963{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:46:52.965{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:46:52.966{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:46:55.322{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: 3G331063GTME0DWD; S3 Extended Request ID: l8WkKY/Ghk0A1/4a6uYvxNTKlkhzKXAMZ5tHxUjttxNt0SxdWiLyQaybD9s5iIPmrDYxI1gEl5lsThE47+RbF30NG9mdVwJ9W/Gx/u02A3c=; Proxy: null), S3 Extended Request ID: l8WkKY/Ghk0A1/4a6uYvxNTKlkhzKXAMZ5tHxUjttxNt0SxdWiLyQaybD9s5iIPmrDYxI1gEl5lsThE47+RbF30NG9mdVwJ9W/Gx/u02A3c=] with root cause
+com.amazonaws.services.s3.model.AmazonS3Exception: The specified key does not exist. (Service: Amazon S3; Status Code: 404; Error Code: NoSuchKey; Request ID: 3G331063GTME0DWD; S3 Extended Request ID: l8WkKY/Ghk0A1/4a6uYvxNTKlkhzKXAMZ5tHxUjttxNt0SxdWiLyQaybD9s5iIPmrDYxI1gEl5lsThE47+RbF30NG9mdVwJ9W/Gx/u02A3c=; Proxy: null)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1862)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleServiceErrorResponse(AmazonHttpClient.java:1415)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1384)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1154)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:811)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:779)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:753)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:713)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:695)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:559)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:539)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5445)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5392)
+	at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1520)
+	at com.amazonaws.services.s3.AmazonS3Client.getObject(AmazonS3Client.java:1374)
+	at com.talentstream.service.StorageService.getImage(StorageService.java:54)
+	at com.talentstream.service.StorageService$$FastClassBySpringCGLIB$$341af08.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.talentstream.aop.AspectAop.logAroundMethod(AspectAop.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.talentstream.service.StorageService$$EnhancerBySpringCGLIB$$975fd42f.getImage(<generated>)
+	at com.talentstream.controller.StorageController.downloadImage(StorageController.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:124)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+06-05-2025_14:50:58.346{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:50:58.347{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:50:58.348{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:51:05.996{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:51:05.997{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:51:05.998{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:56:40.456{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:56:40.457{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:56:40.457{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:56:47.420{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:56:47.420{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:56:47.421{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:57:57.709{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:57:57.709{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:57:57.709{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_14:58:12.741{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:58:12.744{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_14:58:12.746{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:03:48.451{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:03:48.453{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:03:48.454{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:03:54.719{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:03:54.722{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:03:54.724{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:06:55.411{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:06:55.412{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:06:55.413{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:07:01.743{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:07:01.744{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:07:01.745{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:13:51.960{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@38934bad (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_15:13:52.230{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:13:52.231{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:13:52.232{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:13:58.830{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:13:58.830{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:13:58.830{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:21:28.400{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@12a3f221 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_15:21:28.526{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:21:28.527{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:21:28.527{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:21:34.429{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:21:34.430{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:21:34.432{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:23:00.488{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:23:00.489{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:23:00.489{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:23:08.050{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:23:08.051{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:23:08.051{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:24:14.262{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:24:14.265{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:24:14.265{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:24:20.389{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:24:20.394{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:24:20.395{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:26:28.184{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:26:28.186{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:26:28.187{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:26:34.784{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:26:34.786{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:26:34.787{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:29:47.832{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:29:47.834{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:29:47.835{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:29:56.313{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:29:56.314{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:29:56.315{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:30:39.776{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:30:39.777{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:30:39.777{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:30:45.865{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:30:45.866{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:30:45.866{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:32:08.715{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:32:08.715{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:32:08.716{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:32:16.475{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:32:16.475{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:32:16.477{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:46:27.132{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@647028d8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_15:46:27.808{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:46:27.809{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:46:27.810{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:46:34.850{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:46:34.853{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:46:34.854{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:50:16.107{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:50:16.108{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:50:16.111{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:50:22.338{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:50:22.339{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:50:22.339{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:51:45.944{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:51:45.945{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:51:45.946{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:51:50.015{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:51:50.016{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:51:50.018{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:54:12.145{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:54:12.146{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:54:12.147{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:54:19.975{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:54:19.976{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:54:19.976{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:56:44.991{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:56:44.992{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:56:44.993{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_15:56:49.336{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:56:49.337{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_15:56:49.337{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:01:42.073{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:01:42.076{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:01:42.077{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:01:49.793{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:01:49.794{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:01:49.794{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:04:54.459{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:04:54.461{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:04:54.461{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:05:01.150{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:05:01.151{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:05:01.151{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:13:33.992{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@f7dd608 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_16:13:34.112{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:13:34.113{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:13:34.114{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:27:20.050{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@22cbdd1e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_16:30:59.296{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:30:59.298{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:30:59.299{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:38:38.116{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3c45553f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_16:38:38.151{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@26d48d19 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_16:38:38.247{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:38:38.247{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_16:38:38.247{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_16:53:50.083{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@17436879 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_16:54:23.286{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@37c455e0 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:00:38.217{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+06-05-2025_17:00:38.219{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+06-05-2025_17:00:38.219{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+06-05-2025_17:13:57.372{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2b951229 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:14:34.230{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@27a7a535 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:14:36.217{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@65918b8f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:14:40.736{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7f851405 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:14:47.264{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5cfbb938 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:15:09.704{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3f76c9ed (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:15:32.993{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6937917b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:15:46.251{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@217e8ce6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:19:10.608{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3ae4ca37 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:23:53.428{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@312fb0c4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:29:48.250{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1d3277eb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:31:02.002{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1533418a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:33:37.463{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2f17d775 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:33:39.793{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6af61d8b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:34:04.421{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7b4bc3df (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:35:46.896{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@25fe83a2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:49:40.657{UTC}|report-tool|WARN ||c.z.h.p.HikariPool|HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m32s707ms489µs200ns).
+06-05-2025_17:49:40.660{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@71f7d2e2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:49:40.662{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4c131516 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:49:40.663{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@33cbeb4 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:49:40.664{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@e1348ea (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:49:40.665{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@436ccb35 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:50:04.487{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1703cdeb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_17:51:56.900{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@407c109d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.466{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4c08b2cc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.470{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6b61e053 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.473{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@13e02f5d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.476{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1a77713f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.479{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@16daca01 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.482{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@72ddc3f1 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.484{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@60d58030 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.486{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@410afb9c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.488{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1c0bb7e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.494{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1d1e32fc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:02:15.783{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:02:15.784{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:02:15.784{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_18:02:23.860{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:02:23.861{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:02:23.861{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_18:18:46.061{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5fd95ffe (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:47:53.168{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@662f42dd (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_18:47:53.254{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:47:53.254{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:47:53.254{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_18:48:00.980{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:48:00.981{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_18:48:00.981{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_20:00:19.481{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+06-05-2025_20:00:19.482{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+06-05-2025_20:00:19.483{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+06-05-2025_20:04:03.004{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_20:04:03.005{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_20:04:03.005{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_20:08:31.680{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_20:08:31.681{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5YXN3YW50aHNhZ2FyMDMwN0BnbWFpbC5jb20iLCJleHAiOjE3NDY1NTQzMzUsImlhdCI6MTc0NjUxODMzNX0.0SODLs5kmh-_J-4W7p-T1W8lcP0ZN24HfDp49iIrxWE
+06-05-2025_20:08:31.681{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: yaswanthsagar0307@gmail.com
+06-05-2025_20:33:11.422{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@51cecd98 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:33:32.298{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f9eb817 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:33:36.898{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7684aca3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:33:55.441{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f9819 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:34:17.628{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@33bbab67 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:34:33.939{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1c2a7b4f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:45:45.682{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@468bbb9d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_20:46:09.134{UTC}|report-tool|WARN ||c.z.h.p.PoolBase|HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@26d2c4fa (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+06-05-2025_21:11:02.704{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+06-05-2025_21:11:02.852{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+06-05-2025_21:11:02.854{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+06-05-2025_21:11:02.876{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-05-2025_21:11:02.916{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+06-05-2025_21:11:02.925{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+06-05-2025_21:11:02.935{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-0.0.0.0-8080"]
+06-05-2025_21:11:03.031{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+06-05-2025_21:11:03.049{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+06-05-2025_21:11:03.276{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
