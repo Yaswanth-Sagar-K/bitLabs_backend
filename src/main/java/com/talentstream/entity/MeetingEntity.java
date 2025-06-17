@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 public class MeetingEntity {
     @Id
@@ -19,6 +21,7 @@ public class MeetingEntity {
     private String webLink;
 
     @OneToMany(mappedBy = "meeting", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<InviteeEntity> invitees = new ArrayList<>();
 
     

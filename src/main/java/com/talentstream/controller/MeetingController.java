@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.talentstream.dto.AddInviteeRequest;
@@ -30,6 +31,15 @@ public class MeetingController {
     public ResponseEntity<InviteeEntity> addInvitee(@RequestBody AddInviteeRequest request) {
         InviteeEntity invitee = webexService.addInvitee(request);
         return ResponseEntity.ok(invitee);
+    }
+    
+    @PostMapping("/token")
+    public ResponseEntity<?> exchangeCode(@RequestParam("code") String code) {
+        try {
+            return ResponseEntity.ok(webexService.exchangeCodeForToken(code));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("Token exchange failed: " + e.getMessage());
+        }
     }
 }
 

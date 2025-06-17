@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import com.talentstream.dto.AddInviteeRequest;
@@ -24,6 +25,15 @@ public class WebexService {
 
     @Value("${webex.access.token}")
     private String token;
+    
+    @Value("${webex.client.id}")
+    private String clientId;
+
+    @Value("${webex.client.secret}")
+    private String clientSecret;
+
+    @Value("${webex.redirect.uri}")
+    private String redirectUri;
 
     @Autowired
     private WebClient webClient;
@@ -33,6 +43,22 @@ public class WebexService {
     
     @Autowired
     private InviteeRepository inviteeRepo;
+    
+    
+
+    public Map<String, Object> exchangeCodeForToken(String code) {
+        return webClient.post()
+                .uri("/access_token")
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .body(BodyInserters.fromFormData("grant_type", "authorization_code")
+                        .with("client_id", clientId)
+                        .with("client_secret", clientSecret)
+                        .with("code", code)
+                        .with("redirect_uri", redirectUri))
+                .retrieve()
+                .bodyToMono(Map.class)
+                .block();
+    }
 
     public MeetingEntity createMeeting(CreateMeetingRequest req) {
         Map<String, Object> payload = Map.of(
